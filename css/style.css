@@ -5,7 +5,8 @@ body {
 }
 
 div {
-  background-color: hotpink;
+ background-color: #10ACAB;
+  padding: 20px;#10ACAB
 }
 
 header {
@@ -32,7 +33,6 @@ nav a {
   text-decoration: none;
   color: black;
 }
-
 
 
 a:hover {
