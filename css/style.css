@@ -8,16 +8,35 @@ div {
   background-color: hotpink;
 }
 
-nav ul {
-  list-style-type: none;
+header {
   display: flex;
-  gap: 1rem;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
+header img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 a:hover {
-  background-color: hotpink;
+  background-color: hotpink;  
   padding: 0.5rem;
   border-radius: 10px;
 }
