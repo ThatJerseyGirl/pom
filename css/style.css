@@ -1,7 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 body {
-  font-family: "Petit Formal Script", cursive;
+  font-family: "Indie Flower", sans-serif;
+}
+p {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h3 {
+  font-size: 3rem;
+  
+}
+
+.portfolio-list{
+  font-size: 2rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 50px auto;
 }
 
 div {
@@ -67,10 +84,7 @@ img {
     text-align: center;
 }
 
-#about h3 {
-  font-size: 4rem;
-    text-align: center;
-}
+
 #FunFacts {
     text-align: center;
 }
@@ -142,7 +156,7 @@ font-size: 2rem;}
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 3rem;
-  font-family: Arial, sans-serif;
+  font-family: "Indie Flower", sans-serif;
   box-sizing: border-box;
 }
 
@@ -179,4 +193,9 @@ font-size: 2rem;}
   margin-top: 18px;
   text-align: center;
   font-weight: bold;
+}
+#portfolio {
+  background-color: #10ACAB;
+    
+   
 }
