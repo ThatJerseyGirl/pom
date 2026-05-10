@@ -88,4 +88,95 @@ img {
     height: auto;
 }
 #studies {
-color: hot hotpink;}
+color: hot hotpink;
+font-size: 2rem;}
+
+#contact {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .form-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #222;
+}
+
+#contact p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-top: 2rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+#contact textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+#contact button {
+  margin-top: 2rem;
+  padding: 24px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #1d4ed8;
+}
+
+#contact #formMessage {
+  margin-top: 18px;
+  text-align: center;
+  font-weight: bold;
+}
