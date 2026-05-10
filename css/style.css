@@ -6,7 +6,7 @@ body {
 
 div {
  background-color: #10ACAB;
-  padding: 20px;#10ACAB
+  padding: 20px;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 300px;
   height: auto;
 }
 
@@ -43,13 +43,17 @@ a:hover {
 
 img {
   width: 200px;
+
+}
+#index{
+    text-align: center;
 }
 
-@media (min-width: 500px) {
-  div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    margin: 5px;
-  }
+#about{
+    
+    text-align: center;
+}
+
+#about h3 {
+    text-align: center;
 }
