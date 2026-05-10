@@ -71,19 +71,19 @@ img {
   font-size: 4rem;
     text-align: center;
 }
-#funfacts {
+#FunFacts {
     text-align: center;
 }
-#funfacts h3 {
+#FunFacts h3 {
     text-align: center;
 }
-#funfacts p {
+#FunFacts p {
     font-size: 2rem;
     line-height: 1.5;
     max-width: 600px;
     margin: 50px auto;
 }
-#funfacts img {
+#FunFacts img {
     width: 500px;
     height: auto;
 }
