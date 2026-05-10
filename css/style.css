@@ -30,10 +30,23 @@ nav ul {
 }
 
 nav a {
+  border:1px solid hot;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: hotpink;
   text-decoration: none;
   color: black;
 }
-
+ nav link:hover {
+  background-color: hotpink;  
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+nav a:hover {
+  background-color: #10ACAB;  
+  padding: 0.5rem;
+  border-radius: 10px;
+}
 
 a:hover {
   background-color: hotpink;  
@@ -55,37 +68,24 @@ img {
 }
 
 #about h3 {
+  font-size: 4rem;
     text-align: center;
 }
-
-#fun-facts {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
+#funfacts {
     text-align: center;
-    background-color: #10ACAB;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
-#fun-facts h3 {
+#funfacts h3 {
     text-align: center;
-    margin-bottom: 20px;
 }
-
-#fun-facts img {
-    display: block;
+#funfacts p {
+    font-size: 2rem;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 50px auto;
+}
+#funfacts img {
     width: 500px;
-    max-width: 100%;
     height: auto;
-    margin: 0 auto 30px auto;
-    border-radius: 15px;
 }
-
-#fun-facts p {
-    text-align: center;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
+#studies {
+color: hot hotpink;}
